@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+   background-image: url(pexels-maxyne-barcel-10402282\ 1.png);
+   background-size: cover;
+   background-attachment: fixed;
+}
+.nav{
+    display: flex;
+     justify-content: space-around;
+    /* justify-content: center; */
+    padding-top: 2%;
+}
+.nav2{
+    display: flex;
+   justify-content:space-around ;
+   gap:50px;
+   color: yellow;
+    /* padding-top: 2%; */
+}
+.herosec{
+    padding-top: 8%;
+    text-align: center;
+    text-decoration: solid;
+    color: yellow;
+}
+h1{
+    font-size: 500%;
+}
+button{
+  background-color: rgb(199, 59, 59);
+  font-size: 100%;
+  margin: auto;
+  color: white;
+  padding: 15px 32px;
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  
+
+}
+button:hover{
+background-color: rgba(14, 186, 62, 0.91);
+cursor: pointer;
+}
+img{
+    width: 110px;
+}
+footer{
+    /* padding-top: 20%;*/
+    /* padding-left: 90%;  */
+    position: sticky;
+    bottom: 2px;
+    width: 10%;
+    margin-left: 86%;
+    position: S;
+   
+}
